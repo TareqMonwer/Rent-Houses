@@ -122,3 +122,8 @@ dmypy.json
 # End of https://www.gitignore.io/api/django
 
 Pipfile
+btre/email_details.py
+
+# IDE
+.idea
+.vscode

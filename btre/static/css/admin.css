@@ -1,0 +1,48 @@
+:root {
+    --primary-darkblue: #273C5F;
+    --primary-greenish: #4C9E88;
+}
+
+#header {
+    background: var(--primary-darkblue);
+    height: 50px;
+    color: aliceblue;
+}
+#header h1 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+div.breadcrumbs {
+    background: var(--primary-greenish);
+}
+
+div.submit-row {
+    background: #6fff782b;
+    border: 1px solid #c0ffc7;
+}
+
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button {
+    background: var(--primary-darkblue);
+    color: #fff;
+}
+
+.button.default, input[type="submit"].default, .submit-row input.default {
+    background: var(--primary-greenish);
+}
+
+
+.module h2, .module caption, .inline-group h2 {
+    background: var(--primary-darkblue);
+}
+a:link, a:visited {
+    color: #0a3d2e;
+}
+.object-tools a:focus, .object-tools a:hover {
+    background: var(--primary-darkblue);
+}
+
+.selector-chosen h2 {
+    background: var(--primary-greenish) !important;
+}
+
